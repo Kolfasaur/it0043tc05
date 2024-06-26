@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aqua;
+}
+
+.Main-Body {
+    height: 850px;
+    width: 50vw;
+    margin-top: 10px;
+    border: solid black 5px;
+    position: absolute;
+    right: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: start;
+    padding: 20px;
+    gap: 0px
+}
+
+.mbody {
+
+    box-sizing: border-box;
+    border: solid black 5px;
+    border-radius: 10px;
+    width: 200px;
+    height: 30px;
+    padding: 80px;
+    margin: 5px;
+    text-align: center;
+
+
+}
+#body1 {
+
+    background-color: cornflowerblue;
+    flex-grow: 0;
+}
+
+#body2 {
+    background-color: blue;
+    flex-grow: 0;
+}
+
+#body3 {
+    background-color: chartreuse;
+    flex-grow: 0;
+}
+
+h3 {
+    font-size: 2rem;
+    padding-left: 200px;
+    margin: 10px;
+}
+
+#aligntext {
+    font-size: 2rem;
+    padding-left: 230px;
+    margin: 10px;
+}
+
+#FlexGrowtext {
+    padding-left: 230px;
+    margin: 10px;
+}
+
+.flex1 {
+    display: flex;
+}
+
+.flex2 {
+    display: flex;
+    margin-left: 100px;
+
+
+}
+
+#Resetbtn {
+    margin-left: 110px;
+    width: 400px;
+}
+
+
+.FlexGapsection {
+    margin-left: 200px;
+}
+
+.btn {
+
+    height: 60px;
+    width: 200px;
+    border: none;
+    border-radius: 10em;
+    background: #016DD9;
+    font-size: 20px;
+    color: #ffffff;
+    font-family: inherit;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.3s, color 0.3s;
+    margin: 10px;
+
+
+}
+
+.btn:hover {
+    background-color: black;
+}
+
+.flexbox {
+    margin-left: 10px;
+
+
+}

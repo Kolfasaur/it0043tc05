@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ARICAYOS_ESTABILLO_TSA7.css">
+</head>
+
+<body>
+    <div class="Main-Body" id="mainbody">
+        <div id="body1" class="mbody">1</div>
+        <div id="body2" class="mbody">2</div>
+        <div id="body3" class="mbody">3</div>
+    </div>
+
+    <div class="container">
+        <div class="Fleboxbuttoncontainer">
+            <div class="flexbox" id="Resetbox">
+                <button class="btn" id="Resetbtn" onclick="reset()">Reset Your Flexbox</button>
+
+                <div class="FlexGapsection"><button class="btn" id="FlexGapbtn" onclick="gapChange()">Set Gap
+                        <input type="Number" min="0" id="gap"></button>
+                </div>
+            </div>
+
+            <div class="flexbox">
+                <h3>Flex Direction</h3>
+                <div class="flex2">
+                    <button class="btn" id="row" onclick="flexrow()">row</button>
+                    <button class="btn" id="column" onclick="flexcolumn()">column</button>
+                </div>
+            </div>
+
+            <div class="flexbox" id="jcontent">
+                <h3>Justify content</h3>
+                <div class="flex1">
+                    <div id="start"><button class="btn" onclick="justifystart()">Start</button></div>
+                    <div id="Center"><button class="btn" onclick="justifycenter()">Center</button></div>
+                    <div id="End"><button class="btn" onclick="justifyend()">End</button></div>
+                </div>
+                <div class="flex1">
+                    <div id="Between"><button class="btn" onclick="justifybetween()">Space Between</button></div>
+                    <div id="Around"><button class="btn" onclick="justifyaround()">Space Around</button></div>
+                    <div id="Evenly"><button class="btn" onclick="justifyevenly()">Space Evenly</button></div>
+                </div>
+            </div>
+
+            <div class="flexbox">
+                <h3 id="aligntext">Align item</h3>
+                <button class="btn" onclick="alignstart()">Start</button>
+                <button class="btn" onclick="aligncenter()">Center</button>
+                <button class="btn" onclick="alignend()">End</button>
+
+
+            </div>
+
+            <div class="flexbox">
+                <h3 id="FlexGrowtext">Flex Grow </h3>
+                <div class="flex2">
+                    <div id="resetGrow"><button class="btn" onclick="flexreset()">reset</button></div>
+                    <div id="Growall"><button class="btn" onclick="flexgrowall()">Grow all</button></div>
+
+                </div>
+                <div class="flex1">
+                    <div id="box1"><button class="btn" onclick="flexgrow1()">Box 1 <input type="Number" min="0"
+                                id="boxs1"></button></div>
+                    <div id="box2"><button class="btn" onclick="flexgrow2()">Box 2 <input type="Number" min="0"
+                                id="boxs2"></button></div>
+                    <div id="box3"><button class="btn" onclick="flexgrow3()">Box 3 <input type="Number" min="0"
+                                id="boxs3"> </button></div>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="ARICAYOS_ESTABILLO_TSA7.js"></script>
+</body>
+
+</html>
