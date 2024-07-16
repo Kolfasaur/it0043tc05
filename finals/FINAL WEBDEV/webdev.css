@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Anton+SC&family=Bebas+Neue&display=swap');
 
+
 body {
     font-family: Anton;
     margin: 0;
@@ -97,7 +98,7 @@ section#home h2 {
     margin: 0 auto;
     text-transform: uppercase;
     font-weight: 900;
-
+    font-size: 20px;
 }
 
 .welcomemsg {
@@ -298,8 +299,8 @@ section#Projects h2 {
 
 .project1 {
     background: url(picture/Screenshot\ 2024-07-16\ 220218.png) no-repeat center center/cover;
-    height: 300px;
-    width: 400px;
+    height: 250px;
+    width: 300px;
     border-radius: 20px;
     align-items: center;
     align-content: center;
@@ -309,8 +310,8 @@ section#Projects h2 {
 
 .project2 {
     background: url(picture/valo.png) no-repeat center center/cover;
-    height: 300px;
-    width: 400px;
+    height: 250px;
+    width: 300px;
     border-radius: 20px;
     align-items: center;
     align-content: center;
@@ -320,8 +321,8 @@ section#Projects h2 {
 
 .project3 {
     background: url(picture/pokemon.png) no-repeat center center/cover;
-    height: 300px;
-    width: 400px;
+    height: 250px;
+    width: 300px;
     border-radius: 20px;
     align-items: center;
     align-content: center;
@@ -591,7 +592,7 @@ button {
 }
 
 
-@media (max-width: 760px) {
+@media (max-width: 800px) {
     .box-about{
         display: flex;
         flex-direction: column;
@@ -602,6 +603,20 @@ button {
     }
     section#home  {
         background-repeat: no-repeat;
-        background-size:cover
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+    .project1{
+        width: 200px;
+        height: 150px;
+    }
+    .project2{
+        width: 200px;
+        height: 150px;
+    }
+    .project3{
+        width: 200px;
+        height: 150px;
     }
 }
