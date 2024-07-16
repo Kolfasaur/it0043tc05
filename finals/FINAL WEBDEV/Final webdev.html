@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="webdev.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <ul>
+                <li class="links" id="home"><a href="#home">Home</a></li>
+                <li class="links"><a href="#about">About</a></li>
+                <li class="links"><a href="#portfolio">Portfolio</a></li>
+                <li class="links"><a href="#contact">Contact</a></li>
+                <li class="links"><a href="#faq">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="boxhome">
+            <h2>Welcome to My Portfolio</h2>
+            <div class="welcomemsg"> Hello! I'm Barric, a passionate Student. This is where I showcase my
+                skills and projects that I've worked on. Feel free to explore and learn more
+                about what I do. I hope you enjoy your visit!
+            </div>
+            <button class="box" onclick="window.location.href='#portfolio'">View My Work</button>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="box-about">
+            <h2 class="abouth">About Me</h2>
+            <div class="about-1">
+                <img src="picture/myphoto.jpg" alt="Your Photo">
+            </div>
+            <div class="about-2">
+                <p class="about2p"> Hi there! I'm Barric, a passionate Student. I am a student at the Far Eastern
+                    University Institute
+                    of Technology.
+                    I am currently taking up Bachelor of Science in Information Technology Specialized in Cyber
+                    Security.
+                    I am a hardworking and dedicated student who is always eager to learn new things.
+                    I am passionate about web development and programming. I am looking forward to all the opportunities
+                    that come my way.</p>
+                </p>
+            </div>
+            <div class="about-3">
+                <h2 class="skillh">My Skills</h2>
+                <div class="skill">
+                    <h3>HTML</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 60%;">60%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>CSS</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 80%;">80%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>JavaScript</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 50%;">50%</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <h3>C++</h3>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 75%;">75%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="Projects">
+
+        <div class="projectbox">
+            <h2>Projects</h2>
+
+            <div class="project1">
+                <h3 class="prj1">Flexbox Simulator</h3>
+                <a class="prj1" href="it0043tc05-main/ARICAYOS_ESTABILLO_TSA7.html">View Project</a>
+            </div>
+
+            <div class="project2">
+                <h3 class="prj2">Valorant HomePage</h3>
+                <a class="prj2" href="it0043tc05-main/ESTABILLO_ARRICAYOS_TSA6/ESTABILLO_ARRICAYOS_TSA6.html">View Project</a>
+            </div>
+
+            <div class="project3">
+                <h3  class="prj3">Pokemon</h3>
+                <a class="prj3" href="it0043tc05-main/ESTABILLO_ARRICAYOS_TSA6/ESTABILLO_ARRICAYOS_TSA6.html">View Project</a>
+            </div>
+
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="submit-form.php" method="POST" class="form">
+            <label for="name" class="namef">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email" class="emailf">Email:</label>
+            <input type="email" id="email" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+            <label for="message" class="msgf">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit" class="btn">Send</button>
+        </form>
+    </section>
+
+    <section id="faq">
+        <div class="faq">
+            <h2>Frequently Asked Questions</h2>
+
+            <div class="faq1">
+                <h3 class="faq-item1">What is your course?</h3>
+                <p class="faq-answer1">Bachelor of science in Information Technology Specialized in Cyber Security.</p>
+            </div>
+            <div class="faq2">
+                <h3 class="faq-item2">What is Cyber Security?</h3>
+                <p class="faq-answer2">
+                    Cybersecurity is the field of defending programs, networks, and systems from
+                    online threats. Typically, the goals of these cyberattacks are to interrupt normal business
+                    operations, get, change, or delete sensitive data, or use ransomware to demand money from customers.
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>Connect with me on:</p>
+        <a href="https://www.facebook.com/Barric0905/" target="_blank">Facebook</a>
+        <a href="https://www.instagram.com/kolfa_saur/" target="_blank">Instagram</a>
+        <a href="https://github.com/Kolfasaur" target="_blank">GitHub</a>
+    </footer>
+</body>
+
+</html>

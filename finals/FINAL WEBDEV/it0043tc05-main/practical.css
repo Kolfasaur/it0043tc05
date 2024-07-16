@@ -1,0 +1,267 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    box-sizing: border-box;
+    transition: ease-in-out 1s all;
+}
+
+body {
+    background-color: rgb(255, 0, 0);
+}
+
+.container {
+    background-image: url(background.jpg);
+    background-repeat: repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex: 0 0;
+
+}
+
+.text,
+.pokeball,
+.Type {
+    display: none;
+}
+
+#item {
+    margin: 2%;
+    padding: 2%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+
+}
+
+.item1 {
+    background-color: rgb(227, 227, 53);
+    border-radius: 25px;
+    border: 5px solid rgb(0, 0, 0);
+}
+
+.item2 {
+    background-color: rgb(204, 204, 108);
+    border-radius: 25px;
+    border: 5px solid rgb(0, 0, 0);
+
+}
+
+.item3 {
+    background-color: wheat;
+    border-radius: 25px;
+    border: 5px solid rgb(0, 0, 0);
+
+}
+
+.item4 {
+    background-color: rgb(49, 161, 174);
+    border-radius: 25px;
+    border: 5px solid rgb(0, 0, 0);
+
+}
+
+.item5 {
+    background-color: rgb(76, 76, 165);
+    border-radius: 25px;
+    border: 5px solid rgb(0, 0, 0);
+}
+
+.item6 {
+    background-color: rgb(148, 123, 78);
+    border-radius: 25px;
+    border: 5px solid rgb(0, 0, 0);
+}
+
+.item7 {
+    background-color: green;
+    border-radius: 25px;
+    border: 5px solid rgb(0, 0, 0);
+}
+
+.item8 {
+    background-color: orangered;
+    border-radius: 25px;
+    border: 5px solid rgb(0, 0, 0);
+}
+
+.item9 {
+    background-color: blue;
+    border-radius: 25px;
+    border: 5px solid rgb(0, 0, 0);
+}
+
+.item10 {
+    background-color: burlywood;
+    border-radius: 25px;
+    border: 5px solid rgb(0, 0, 0);
+}
+
+.item11 {
+    background-color: pink;
+    border-radius: 25px;
+    border: 5px solid rgb(0, 0, 0);
+}
+
+.item12 {
+    background-color: rgb(255, 255, 255);
+    border-radius: 25px;
+    border: 5px solid rgb(0, 0, 0);
+}
+
+
+@media screen and (min-width: 1747px) {
+
+    .items {
+        margin: 7%;
+        padding: 7%;
+    }
+}
+
+@media screen and (min-width: 2597px) {
+
+    .items {
+        margin: 15%;
+        padding: 10%;
+    }
+
+}
+
+@media screen and (max-width: 2000px) {
+
+    .text,
+    .pokeball {
+        display: flex;
+    }
+
+    .items {
+        flex-flow: column;
+        align-items: center;
+
+    }
+
+    .text {
+        padding-left: 100px;
+        padding-right: 100px;
+        font-size: 2rem;
+        font-weight: 800;
+        font-family: cursive;
+    }
+
+    #item {
+        margin: 2%;
+        padding: 2%;
+        padding-top: 2%;
+        padding-bottom: 2%;
+
+    }
+
+    .image {
+        float: left;
+    }
+
+    #item:hover {
+        box-shadow: rgba(0, 0, 0, 0.2) 0 2px 4px -1px, rgba(0, 0, 0, .14) 0 4px 5px 0, rgba(0, 0, 0, .12) 0 1px 10px 0;
+        background: #94494998;
+    }
+
+
+}
+
+@media screen and (max-width: 800px) {
+    .pokeball {
+        display: none;
+    }
+
+    .Type, #type52 {
+        display: flex;
+        order: 3;
+        font-size: 2rem;
+        font-weight: 800;
+        font-family: cursive;
+    }
+
+    #item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        margin: 1%;
+        padding: 1%;
+    }
+
+    .image {
+        order: 1;
+    }
+
+    .text {
+        order: 2;
+        font-size: 2rem;
+        font-weight: 800;
+        font-family: cursive;
+    }
+
+    #item:hover {
+        box-shadow: rgba(0, 0, 0, 0.2) 0 2px 4px -1px, rgba(0, 0, 0, .14) 0 4px 5px 0, rgba(0, 0, 0, .12) 0 1px 10px 0;
+        background: #94494998;
+    }
+
+    .Type, #type52 {
+
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+
+    #type1 {
+        color: rgb(255, 255, 0);
+    }
+    #type2 {
+        color: rgb(30, 106, 147);
+    }
+    #type3 {
+        color:aliceblue
+    }
+    #type4 {
+        color: rgb(30, 106, 147);
+    }
+    #type5 {
+        color: rgb(59, 28, 82);
+    }
+    #type52{
+        color: rgb(15, 134, 53);
+    }
+    #type6 {
+        color: rgb(208, 60, 49);
+    }
+    #type7 {
+        color: rgb(0, 255, 60);
+    }
+    #type72{
+        color: rgb(0, 85, 20);
+    }
+    #type8 {
+        color: rgb(255, 0, 0);
+    }
+    #type9 {
+        color: rgb(255, 0, 0);
+    }
+    #type10 {
+        color:aliceblue
+    }
+    #type11 {
+        color: rgb(116, 31, 115);
+    }
+    #type112{
+        color: aliceblue;
+    }
+    #type12 {
+        color: aliceblue;
+    }
+}
